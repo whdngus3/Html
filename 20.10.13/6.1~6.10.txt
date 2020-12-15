@@ -1,0 +1,61 @@
+<1>
+1.박스속성
+2. border-width, border-style, border-color 
+3. border-radius
+4. display
+5. image
+6. size
+7. repeat
+8. attachment
+9. position
+10. size
+11. family
+12. Serif
+13. Sans-serif
+14. style
+15. weight
+16. text-align
+17. line-height
+18. position
+19. hidden
+20. box-shadow
+21. text-shadow
+
+<2>
+1. O
+2. O
+3. O
+4. X
+5. X
+6. O
+7. O
+8. O
+9. X
+10. O
+11. X
+
+<3>
+2
+
+<4>
+3
+
+<5>
+4
+
+<6>
+1
+
+<7>
+2
+
+<8>
+150
+
+<9>
+A
+
+<10>
+오른쪽 부터 10px간격으로 가로로 100x100짜리 빨간네모 3개 
+
+<11>

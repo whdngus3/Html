@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+         function checkJoin() {
+
+            var form = document.joinForm;
+            if (form.name.value == ""){
+                alert("이름을 입력하세요.");
+                form.name.focus();
+                return false;
+            
+            } else if (form.security_number.value == "") {
+                alert("주민번호를 입력해 주세요");
+                form.security_number.focus();
+                return false;
+
+            } else if (form.id.value == "") {
+                alert("아이디를 입력해 주세요");
+                form.id.focus();
+                return false;
+            }
+
+            form.submit();
+
+            }     
+
+                </script>
+    <style>
+        table,tr,td {
+                
+            border: 5px solid gray;   
+            /* border-collapse: collapse;   */    
+            padding :3px;
+                
+        }
+        table { 
+            height:400px;
+            width:450px;
+            padding:10px;
+        }
+        th {
+
+text-decoration: underline;
+
+}
+
+
+    </style>
+    
+
+</head>
+<body>
+    <form name="joinForm">
+        
+    <table>
+        <tr style="border:none;">
+            <th colspan="2" align="center">회원가입</th>
+        </tr>
+        <tr>
+            <td >이름</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>주민번호</td>
+            <td><input type="text" name="security_number"></td>
+        </tr>
+        <tr>
+            <td>아이디</td>
+            <td><input type="text" name="id"> <input type="button" value="중복확인"></td>
+        </tr>
+        <tr>
+            <td>패스워드</td>
+            <td><input type="text" name="password"></td>
+        </tr>
+        <tr>
+            <td>성별</td>
+            <td>
+                <input type="radio" name="sex" value="man">남
+                <input type="radio" name="sex" value="woman">여
+            </td>
+        </tr>
+        <tr>
+            <td>취미</td>
+            <td>
+                <input type="checkbox" name="hobby" value="study">공부
+                <input type="checkbox" name="hobby" value="excercise">운동
+                <input type="checkbox" name="hobby" value="travel">여행
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="확인" onclick="checkJoin()"> 
+                <input type="reset" value="취소">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>로그인처리</h2>
+    <hr>
+    <script>
+        var id=prompt("id 입력하세요");
+        var pw=prompt("pw입력하세요")
+        var fpw="1234"
+        var fid="홍길동"
+
+        document.write("당신이 입력하신 아이디는",id,"입니다.")
+        if (id == fid & pw==fpw){
+            document.write("ok")
+        }  else {
+            if(id!=fid){
+            alert("아이디 오류입니다")
+            location.reload()
+        } else{
+            alert("비밀번호 오류입니다.")
+            location.reload()
+        }
+        }
+       
+    </script>
+</body>
+</html>

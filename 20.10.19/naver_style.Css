@@ -1,0 +1,32 @@
+.main_menu{
+    width:120px; height:25px;
+    float:left;
+    margin:10px;
+}
+
+.search_box{
+    width:500px;height:40px;
+    background-color: white;
+    border: 2px solid rgb(136, 235, 79);
+    margin-left:5px;
+    float:left
+}
+.search_bar{
+    width:480px;height:30px;
+    background-color: white;
+    border: 0 solid rgba(255, 255, 255, 0);
+    margin-left:5px;
+    margin-top:5px;
+    float:left;
+    font-size:400
+}
+input:focus {outline:none;}
+
+.history_botton{
+    width:30px; height:30px;
+    float:right;
+}
+
+.history_botton:active{
+    
+}

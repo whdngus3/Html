@@ -1,0 +1,116 @@
+Chapter 11 jQuery 라이브러리
+
+01 다음 괄호 안을 채우시오.
+
+(1) (CDN)은 파일을 여러 서버에 분산시키고 사용자가 접속하는 지역과 가장 가까운 곳의 서버에서 파일을 전송하는 기술입니다.
+
+(2) jQuery를 사용할 때 가장 기본적으로 활용하는 함수는 $(또는 jQuery) 입니다.
+
+(3) jQuery로 속성을 조작할 때는 (attr() ) 메서드를 사용합니다.
+
+(4) jQuery로 스타일 속성을 조작할 때는 (css()) 메서드를 사용합니다.
+
+(5) j Query로 내부의 글자를 조작할 때는 (text()) 메서드와 (html()) 메서드를 사용합니다.
+
+(6) jQuery로 클래스를 조작할 때는 (attr() ) 메서드를 사용합니다.
+
+(7) jQuery로 이벤트를 사용할 때 사용할 수 있는 범용적인 메서드는 (on())입니다.
+
+(8) jQuery로 이벤트를 연결할 때, 기본 이벤트 제거는 (preventDefault() ) 메서드를 사용합니다.
+
+(9) jQuery로 애니메이션 효과를 부여할 때는 (animate() ) 메서드를 사용합니다.
+
+
+02 다음 질문에 OX를 표시하시오.
+
+(1) $( ) 함수는 querySelector ( ) 메서드처럼 한 번에 하나의 문서 객체만 선택합니다. (X)
+
+(2) 문서 객체의 속성을 조작할 때는 attr ( ) 메서드를 사용합니다. (O)
+
+(3) 문서 객체의 class 속성을 조작할 때는 class ( ) 메서드를 사용합니다. (X)
+
+(4) jQuery를 사용할 때 이벤트 핸들러에서 return false를 하면, preventDefault( ) 메서드와 stopPropagation( ) 메서드를 호출하는 효과가 납니다. (O)
+
+(5) animate( ) 메서드를 사용해서 상대적으로 요소를 이동시킬 때는 ‘+=<숫자>’ 형태의 문자열을 사용합니다. (O)
+
+
+03 jQuery 라이브러리의 이벤트 관련 메서드가 아닌 것은? (4)
+
+① click ( ) 메서드 ② on( ) 메서드
+
+③ bind( ) 메서드 ④ link ( ) 메서드
+
+
+04 다음 중 attr ( ) 메서드를 잘못 사용한 것은? (4)
+
+① $(‘img’).attr (‘src’, ‘image.png’)
+
+② $(‘img’).attr ({ src: ‘image.png’ })
+
+③ $(‘img’).attr (‘src’, function ( ) { return ‘image.png’ })
+
+④ $(‘*’).attr (function ( ) { return { ‘src’: ‘image.png’ }})
+
+
+05 다음 중 이벤트를 연결하는 코드로 옳은 것은? (3)
+
+① $(‘h1’).on(‘onclick’, function ( ) { })
+
+② $(‘h1’).onclick (function ( ) { })
+
+③ $(‘h1’).on(‘click’, function ( ) { })
+
+④ $(‘h1’).on({ ‘onclick’: function ( ) { } })
+
+
+06 다음 코드의 실행 결과를 예측하시오. (3)
+
+<h1>Lorem</h1>
+
+<h1>Ipsum</h1>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+<script>
+
+alert($('h1').text())
+
+</script>
+
+① Lorem ② Ipsum
+
+③ LoremIpsum ④ Lorem Ipsum
+
+
+07 자바스크립트에서 다음과 같이 메서드를 연속해서 사용하는 것은? (1)
+
+$('h1').attr('data-index', function (index) {
+
+return index;
+
+}).css('color', 'red').addClass('header')
+
+① 메서드 체이닝 ② 메서드 커넥션 콜
+
+③ 메서드 오버라이딩 ④ 메서드 오버로딩
+
+
+08 간단한 효과 메서드에서 대상을 사라지게 하는 메서드는? (4)
+
+① show( ) ② slideDown( )
+
+③ slideUp ( ) ④ fadeOut( )
+
+
+09 자바스크립트에서 다음과 같이 메서드를 연속해서 사용하는 것은? (1)
+
+$('h1').attr('data-index', function (index) {
+
+return index;
+
+}).css('color', 'red').addClass('header')
+
+① 메서드 체이닝 ② 메서드 커넥션 콜
+
+③ 메서드 오버라이딩 ④ 메서드 오버로딩
+[출처] 11장 (CEO Intelligent System) | 작성자 파파

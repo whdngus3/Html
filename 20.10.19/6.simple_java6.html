@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function(){
+            document.body.setAttribute('data-custom','value');
+
+            var dataCustom = document.body.getAttribute('data-custom');
+            alert(dataCustom);
+        };
+    </script>
+    <style>
+        table, tr, td{
+            border:1px dotted blue;
+            border-collapse:collapse;
+        }
+    </style>
+</head>
+<form action="loginaction.jsp" method="get">
+    <h2>log-in</h2>
+    <table>
+        <tr>
+            <td><label for = id></label></td>
+            <td><input tyle="text" id="id" name="id" value="hong" autofocus autocomplete="off"
+                required placeholder="enter id"></td>
+        </tr>
+        <tr>
+            <td><label for = pw></label></td>
+            <td><input tyle="text" id="pw" name="pw" value="0000" autofocus required
+                placeholder="enter pw"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" value="ok"><input type="reset"value="cancle"></td>
+        </tr>
+    </table>
+</form>
+<body>
+    
+</body>
+</html>

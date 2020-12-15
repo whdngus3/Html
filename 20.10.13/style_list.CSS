@@ -1,0 +1,16 @@
+#hw{
+    color:darkseagreen
+}
+.hw{
+   color:aliceblue 
+}
+input:hover{
+    background-color: yellow;
+}
+input:active{
+    background-color:yellowgreen;
+}
+a:link{
+    color:red;
+    background-color: aqua;
+}

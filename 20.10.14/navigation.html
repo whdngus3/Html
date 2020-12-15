@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!-- <style>
+
+     .underline-hover li a:before {
+
+         content:"";
+
+         background-color:dodgerblue;
+
+         width:o; height:2px;
+
+         position:absolute; left:50%; bottom:o;
+
+         transform: translateX(-50%);
+
+     }
+
+ </style> -->
+
+ <style>
+
+     /* @import url(https://fonts.googleapis.com); */
+
+     body {
+
+         font-family: 'Quicksand';
+
+         margin:0;
+
+         padding:0;
+
+         font-size:14px;
+
+         background-color:#f4f4f4;
+
+     }
+
+     .container {
+
+         border:1px solid red;
+
+         position:absolute;
+
+         left:50%;
+
+         top:50%;
+
+         transform:
+
+         translate(-50%,-50%);
+
+     }
+
+     .underline-hover {
+
+         display:flex;
+
+         list-style:none;
+
+         width: 600px;
+
+         background-color: #fff;
+
+         padding: 50px;
+
+         margin:0;
+
+         border-radius: 10%;
+
+         box-shadow: 0 0 30px rgba(0,0,0,0.1);
+
+     }
+
+     .underline-hover li {
+
+         margin: 0 30px;
+
+     }
+
+     .underline-hover li a {
+
+         color: #222;
+
+         text-decoration:none;
+
+         position: relative;
+
+     }
+
+     .underline-hover li a:before {
+
+         content:'';
+
+         background-color: dodgerblue;
+
+         width: 0;
+
+         height: 2px;
+
+         position: absolute;
+
+         left: 50%;
+
+         transform: translateX(-50%);
+
+         bottom:-10px;
+
+         transition: 0.3s;
+
+         
+
+     }
+
+     /* li>a:hover {
+
+         background-color:firebrick;
+
+     } */
+
+     li>a:hover {
+
+         color:firebrick;
+
+     }
+
+     .underline-hover li a:hover:before {
+
+         width: 100%;
+
+     }
+
+ </style>
+
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <ul class="underline-hover">
+
+            <li><a href="">Home</a></li>
+
+            <li><a href="">About</a></li>
+
+            <li><a href="">Service</a></li>
+
+            <li><a href="">Portfolio</a></li>
+
+            <li><a href="">Contact</a></li>
+
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
+[출처] 네비게이션 바 참고 자료 (CEO Intelligent System) | 작성자 파파

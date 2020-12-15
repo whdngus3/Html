@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #molla {  font-size:20px;}
+    table {
+    width: 65%;
+    border: 1px solid #444444;
+  }
+</style>
+<body>
+    <form action = "login.jsp">
+        <table>
+            <tr>
+                <td colspan="2" ><h1>글 작성하기</h1></td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>작성자</strong>
+                </td>
+                <td>
+                    <input type ="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>아이디</strong>
+                </td>
+                <td>
+                    <input type ="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <strong>이메일</strong>
+                </td>
+                <td>
+                    <input type ="text">@<input type ="text">
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <strong>휴대폰</strong>
+                </td>
+                <td>
+                    <select>
+                        <option>010</option>
+                        <option>011</option>
+                        <option>031</option>
+                    </select>
+                    -
+                    <input type = "text">
+                    -
+                    <input type = "text">
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <strong>글제목</strong>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="6">
+                    <strong>내용</strong>
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <textarea cols="30px" rows="10px" ></textarea>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <input type = "submit" value = "확인">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {margin:0;padding:0;}
+
+        body{background:red;}
+        #container{
+            width:500px;height:250px;
+            background:orange;
+            position:absolute;
+            left:50%; top:50%;
+            margin-left: -250px;
+            margin-top: -125px;
+        }
+        .table_center{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="container" >
+        <tr><h1>Log-in</h1><br></tr>
+        <table border="1" class="table_center" >
+            
+            <tr>
+                <td>아이디</td>
+                <td><input type="text"></td>
+
+            </tr>
+            <tr>
+                <td>패스워드</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit"> <input type="reset"></td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
